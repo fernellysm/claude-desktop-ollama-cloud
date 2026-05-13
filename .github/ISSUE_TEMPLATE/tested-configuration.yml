@@ -1,0 +1,70 @@
+name: Tested configuration
+description: Share a working or broken Claude Desktop + Ollama Cloud setup.
+title: "[config]: "
+labels:
+  - compatibility
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing. Do not paste API keys, tokens, or private logs.
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version and Mac type
+      placeholder: "macOS 15.x, Apple Silicon"
+    validations:
+      required: true
+  - type: input
+    id: claude-desktop
+    attributes:
+      label: Claude Desktop version
+      placeholder: "1.6608.0"
+    validations:
+      required: true
+  - type: input
+    id: claude-code
+    attributes:
+      label: Claude Code CLI version
+      placeholder: "2.1.140"
+    validations:
+      required: true
+  - type: input
+    id: ollama
+    attributes:
+      label: Ollama version
+      placeholder: "0.21.2"
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Ollama Cloud model
+      placeholder: "deepseek-v4-pro:cloud"
+    validations:
+      required: true
+  - type: dropdown
+    id: smoke-test
+    attributes:
+      label: Did scripts/smoke-test.sh return ok?
+      options:
+        - "Yes"
+        - "No"
+        - "Not tested"
+    validations:
+      required: true
+  - type: textarea
+    id: wrapper-log
+    attributes:
+      label: Wrapper log excerpt
+      description: Paste only non-sensitive lines from /tmp/claude-desktop-ollama-wrapper.log.
+      render: text
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Anything else that helped or failed.
+    validations:
+      required: false

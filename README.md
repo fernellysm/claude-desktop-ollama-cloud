@@ -64,6 +64,12 @@ It targets the Claude Code / local agent sessions that Claude Desktop launches i
 
 This is an unsupported workaround. Claude Desktop and Ollama change quickly, and a Claude Desktop update may overwrite the helper or change the launch path.
 
+## Share Your Setup
+
+If this works for you, please open a tested configuration issue with your macOS, Claude Desktop, Claude Code, Ollama, and model versions.
+
+That helps other users see which combinations are working.
+
 ## Why This Is Useful
 
 - Try Ollama Cloud models inside a familiar Claude Desktop code workflow.

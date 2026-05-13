@@ -2,6 +2,12 @@
 
 Use this when launching the repo publicly.
 
+For the owner workflow, launch order, reply templates, and tracking plan, see:
+
+```text
+docs/VISIBILITY_PLAYBOOK.md
+```
+
 ## GitHub Social Preview
 
 The social preview image is already in the repo:
@@ -137,4 +143,3 @@ https://github.com/FernellysM/claude-desktop-ollama-cloud/blob/main/assets/demo.
 
 The default tested model is deepseek-v4-pro:cloud, but the wrapper can read a different model from ~/.ollama/config.json.
 ```
-
