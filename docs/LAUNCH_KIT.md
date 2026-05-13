@@ -38,6 +38,9 @@ It includes:
 
 Repo: https://github.com/FernellysM/claude-desktop-ollama-cloud
 
+Launch image:
+https://github.com/FernellysM/claude-desktop-ollama-cloud/blob/main/assets/social-card.png
+
 ## X / Threads Post
 
 I got Claude Desktop's embedded Claude Code sessions running through Ollama Cloud models.
@@ -48,6 +51,9 @@ Includes install, smoke test, restore script, and Keychain API key storage.
 
 https://github.com/FernellysM/claude-desktop-ollama-cloud
 
+Demo:
+https://github.com/FernellysM/claude-desktop-ollama-cloud/blob/main/assets/demo.gif
+
 ## LinkedIn Post
 
 I turned a local Claude Desktop + Ollama Cloud workaround into a reusable macOS setup.
@@ -57,6 +63,8 @@ The repo shows how to route Claude Desktop's embedded Claude Code sessions throu
 This is useful if you want to test models like DeepSeek, Kimi, GLM, or Qwen inside a familiar Claude Desktop code workflow.
 
 Repo: https://github.com/FernellysM/claude-desktop-ollama-cloud
+
+Demo: https://github.com/FernellysM/claude-desktop-ollama-cloud/blob/main/assets/demo.gif
 
 ## Reddit Post
 
@@ -84,6 +92,9 @@ What is included:
 
 Repo:
 https://github.com/FernellysM/claude-desktop-ollama-cloud
+
+Demo:
+https://github.com/FernellysM/claude-desktop-ollama-cloud/blob/main/assets/demo.gif
 ```
 
 ## Hacker News Title Options
@@ -95,6 +106,18 @@ Routing Claude Desktop's embedded Claude Code through Ollama
 ```
 
 ## Demo Proof
+
+README demo:
+
+```text
+assets/demo.gif
+```
+
+Social card:
+
+```text
+assets/social-card.png
+```
 
 ```sh
 ./scripts/smoke-test.sh
@@ -110,4 +133,3 @@ routed Claude Code launch to deepseek-v4-pro:cloud via http://127.0.0.1:11434
 ## Keywords
 
 Claude Desktop, Claude Code, Ollama Cloud, DeepSeek, Kimi, Qwen, GLM, Anthropic-compatible API, macOS, local AI agents, developer tools, AI coding agents.
-

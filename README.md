@@ -5,7 +5,10 @@ Run Ollama Cloud models inside Claude Desktop's embedded Claude Code sessions on
 [![macOS](https://img.shields.io/badge/macOS-tested-black)](#tested-on)
 [![Ollama Cloud](https://img.shields.io/badge/Ollama-Cloud-blue)](#what-this-does)
 [![Claude Desktop](https://img.shields.io/badge/Claude-Desktop-orange)](#important-scope)
+[![Release](https://img.shields.io/github/v/release/FernellysM/claude-desktop-ollama-cloud?display_name=tag)](https://github.com/FernellysM/claude-desktop-ollama-cloud/releases/latest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+![Terminal demo showing Claude Desktop local code sessions routed through Ollama Cloud](assets/demo.gif)
 
 Claude Desktop does not currently expose a normal setting to swap its built-in Claude model for an Ollama Cloud model. This workaround routes Claude Desktop's embedded Claude Code / local code sessions through Ollama's Anthropic-compatible local gateway.
 
@@ -265,4 +268,3 @@ https://gist.github.com/FernellysM/2ce62ea017ae9d78d7b2c54603e718c6
 ## License
 
 MIT
-
